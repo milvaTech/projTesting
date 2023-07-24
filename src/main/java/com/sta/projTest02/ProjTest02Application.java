@@ -27,6 +27,10 @@ public class ProjTest02Application {
 		return "Welcome to MilvaTech";
 	}
 
+	@GetMapping("/hello")
+	public String hello(){
+		return "Welcome to MilvaTech";
+	}
 
 	public static void main(String[] args) {
 		log.info("In main method..");
