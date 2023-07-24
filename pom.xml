@@ -36,7 +36,10 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>proj_gitaction</finalName>
 	</build>
+
+
 	<repositories>
 		<repository>
 			<id>spring-milestones</id>
