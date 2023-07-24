@@ -36,5 +36,5 @@ jobs:
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
-        username: ${{ simodocker19 }}
-        password: ${{ mohamed }}
+        username: simodocker19
+        password: mohamed
